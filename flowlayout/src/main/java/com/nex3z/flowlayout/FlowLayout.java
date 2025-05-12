@@ -366,6 +366,11 @@ public class FlowLayout extends ViewGroup {
         requestLayout();
     }
 
+    //获取展示行数
+    public int getRows() {
+        return mHorizontalSpacingForRow.size();
+    }
+
     /**
      * Returns the horizontal spacing between child views.
      *
